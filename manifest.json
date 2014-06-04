@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "chrome_window2",
+  "description": "chrome_window2 sample for Chrome Packaged Apps",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "1.1",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["main.js"]
+    }
+  },
+  "permissions": [
+    "webview" , "storage", "unlimitedStorage" ,"<all_urls>"
+  ]
+}
